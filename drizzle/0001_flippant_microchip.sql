@@ -1,0 +1,1 @@
+ALTER TABLE `bookmarks` ADD `preview_image_key` text;

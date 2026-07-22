@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-13T16:26:13Z",
+  "title": "Design System: 中轉站",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "淨白桌面",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": ["oklch(0.15 0 0)", "oklch(0.27 0 0)", "oklch(0.39 0 0)", "oklch(0.51 0 0)", "oklch(0.63 0 0)", "oklch(0.75 0 0)", "oklch(0.87 0 0)", "oklch(0.95 0 0)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "冷灰表面",
+        "canonical": "oklch(0.975 0.004 250)",
+        "tonalRamp": ["oklch(0.15 0.004 250)", "oklch(0.27 0.004 250)", "oklch(0.39 0.004 250)", "oklch(0.51 0.004 250)", "oklch(0.63 0.004 250)", "oklch(0.75 0.004 250)", "oklch(0.87 0.004 250)", "oklch(0.95 0.004 250)"]
+      },
+      "surface-strong": {
+        "role": "neutral",
+        "displayName": "冷灰強表面",
+        "canonical": "oklch(0.945 0.008 250)",
+        "tonalRamp": ["oklch(0.15 0.008 250)", "oklch(0.27 0.008 250)", "oklch(0.39 0.008 250)", "oklch(0.51 0.008 250)", "oklch(0.63 0.008 250)", "oklch(0.75 0.008 250)", "oklch(0.87 0.008 250)", "oklch(0.95 0.008 250)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "深墨",
+        "canonical": "oklch(0.19 0.016 250)",
+        "tonalRamp": ["oklch(0.15 0.016 250)", "oklch(0.27 0.016 250)", "oklch(0.39 0.016 250)", "oklch(0.51 0.016 250)", "oklch(0.63 0.016 250)", "oklch(0.75 0.016 250)", "oklch(0.87 0.016 250)", "oklch(0.95 0.016 250)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "靜灰",
+        "canonical": "oklch(0.43 0.025 250)",
+        "tonalRamp": ["oklch(0.15 0.025 250)", "oklch(0.27 0.025 250)", "oklch(0.39 0.025 250)", "oklch(0.51 0.025 250)", "oklch(0.63 0.025 250)", "oklch(0.75 0.025 250)", "oklch(0.87 0.025 250)", "oklch(0.95 0.025 250)"]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "淡灰",
+        "canonical": "oklch(0.58 0.018 250)",
+        "tonalRamp": ["oklch(0.15 0.018 250)", "oklch(0.27 0.018 250)", "oklch(0.39 0.018 250)", "oklch(0.51 0.018 250)", "oklch(0.63 0.018 250)", "oklch(0.75 0.018 250)", "oklch(0.87 0.018 250)", "oklch(0.95 0.018 250)"]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "結構線",
+        "canonical": "oklch(0.87 0.012 250)",
+        "tonalRamp": ["oklch(0.15 0.012 250)", "oklch(0.27 0.012 250)", "oklch(0.39 0.012 250)", "oklch(0.51 0.012 250)", "oklch(0.63 0.012 250)", "oklch(0.75 0.012 250)", "oklch(0.87 0.012 250)", "oklch(0.95 0.012 250)"]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "強結構線",
+        "canonical": "oklch(0.76 0.022 250)",
+        "tonalRamp": ["oklch(0.15 0.022 250)", "oklch(0.27 0.022 250)", "oklch(0.39 0.022 250)", "oklch(0.51 0.022 250)", "oklch(0.63 0.022 250)", "oklch(0.75 0.022 250)", "oklch(0.87 0.022 250)", "oklch(0.95 0.022 250)"]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "深鈷靛",
+        "canonical": "oklch(0.4 0.11 250)",
+        "tonalRamp": ["oklch(0.15 0.11 250)", "oklch(0.27 0.11 250)", "oklch(0.39 0.11 250)", "oklch(0.51 0.11 250)", "oklch(0.63 0.11 250)", "oklch(0.75 0.11 250)", "oklch(0.87 0.11 250)", "oklch(0.95 0.11 250)"]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "深鈷靛按下",
+        "canonical": "oklch(0.34 0.12 250)",
+        "tonalRamp": ["oklch(0.15 0.12 250)", "oklch(0.27 0.12 250)", "oklch(0.39 0.12 250)", "oklch(0.51 0.12 250)", "oklch(0.63 0.12 250)", "oklch(0.75 0.12 250)", "oklch(0.87 0.12 250)", "oklch(0.95 0.12 250)"]
+      },
+      "primary-soft": {
+        "role": "primary",
+        "displayName": "鈷靛薄霧",
+        "canonical": "oklch(0.94 0.025 250)",
+        "tonalRamp": ["oklch(0.15 0.025 250)", "oklch(0.27 0.025 250)", "oklch(0.39 0.025 250)", "oklch(0.51 0.025 250)", "oklch(0.63 0.025 250)", "oklch(0.75 0.025 250)", "oklch(0.87 0.025 250)", "oklch(0.95 0.025 250)"]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "可見焦點",
+        "canonical": "oklch(0.7 0.14 250)",
+        "tonalRamp": ["oklch(0.15 0.14 250)", "oklch(0.27 0.14 250)", "oklch(0.39 0.14 250)", "oklch(0.51 0.14 250)", "oklch(0.63 0.14 250)", "oklch(0.75 0.14 250)", "oklch(0.87 0.14 250)", "oklch(0.95 0.14 250)"]
+      },
+      "success": {
+        "role": "semantic",
+        "displayName": "完成綠",
+        "canonical": "oklch(0.43 0.115 154)",
+        "tonalRamp": ["oklch(0.15 0.115 154)", "oklch(0.27 0.115 154)", "oklch(0.39 0.115 154)", "oklch(0.51 0.115 154)", "oklch(0.63 0.115 154)", "oklch(0.75 0.115 154)", "oklch(0.87 0.115 154)", "oklch(0.95 0.115 154)"]
+      },
+      "warning": {
+        "role": "semantic",
+        "displayName": "注意琥珀",
+        "canonical": "oklch(0.47 0.105 78)",
+        "tonalRamp": ["oklch(0.15 0.105 78)", "oklch(0.27 0.105 78)", "oklch(0.39 0.105 78)", "oklch(0.51 0.105 78)", "oklch(0.63 0.105 78)", "oklch(0.75 0.105 78)", "oklch(0.87 0.105 78)", "oklch(0.95 0.105 78)"]
+      },
+      "danger": {
+        "role": "semantic",
+        "displayName": "行動紅",
+        "canonical": "oklch(0.46 0.15 27)",
+        "tonalRamp": ["oklch(0.15 0.15 27)", "oklch(0.27 0.15 27)", "oklch(0.39 0.15 27)", "oklch(0.51 0.15 27)", "oklch(0.63 0.15 27)", "oklch(0.75 0.15 27)", "oklch(0.87 0.15 27)", "oklch(0.95 0.15 27)"]
+      },
+      "backdrop": {
+        "role": "neutral",
+        "displayName": "專注遮罩",
+        "canonical": "oklch(0.09 0.016 250 / 0.68)",
+        "tonalRamp": ["oklch(0.09 0.016 250 / 0.2)", "oklch(0.09 0.016 250 / 0.28)", "oklch(0.09 0.016 250 / 0.36)", "oklch(0.09 0.016 250 / 0.44)", "oklch(0.09 0.016 250 / 0.52)", "oklch(0.09 0.016 250 / 0.6)", "oklch(0.09 0.016 250 / 0.68)", "oklch(0.09 0.016 250 / 0.76)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "收件標題", "purpose": "首屏唯一的大標題，最多 16ch。" },
+      "headline": { "displayName": "區段標題", "purpose": "資料庫區段的定位標題。" },
+      "title": { "displayName": "內容標題", "purpose": "書籤名稱，最多顯示兩行。" },
+      "body": { "displayName": "介面正文", "purpose": "說明、輸入與一般內容。" },
+      "action": { "displayName": "主要動作", "purpose": "16px、700 字重的收錄提交。" },
+      "control": { "displayName": "安靜控制", "purpose": "14px 的次要按鈕與緊湊控制。" },
+      "label": { "displayName": "操作標籤", "purpose": "按鈕、篩選、狀態與細節。" },
+      "support": { "displayName": "緊湊說明", "purpose": "15px 的輔助內容與小標題。" },
+      "subheading": { "displayName": "次層標題", "purpose": "面板與說明區塊內的次層標題。" },
+      "lead": { "displayName": "引導文字", "purpose": "18px 的重要說明與引導。" },
+      "caption": { "displayName": "資訊註記", "purpose": "12px 的來源、時間與 meta。" },
+      "micro": { "displayName": "極次標籤", "purpose": "11px，只用於最低層級的資訊標籤。" },
+      "symbol": { "displayName": "介面符號", "purpose": "24px 的方向與關閉符號。" },
+      "symbolLarge": { "displayName": "大型符號", "purpose": "26px 的空狀態與強調符號。" },
+      "mobileDisplay": { "displayName": "手機收件標題", "purpose": "窄螢幕上的首屏收件標題。" },
+      "mono": { "displayName": "技術值", "purpose": "網址、金鑰與技術值。" }
+    },
+    "shadows": [
+      {
+        "name": "toast-ambient",
+        "value": "0 14px 40px oklch(0.18 0.02 250 / 0.18)",
+        "purpose": "只讓頁面右下的短暫回饋離開文件流。"
+      },
+      {
+        "name": "detail-dialog",
+        "value": "0 24px 64px oklch(0.12 0.02 250 / 0.24)",
+        "purpose": "只讓使用者主動開啟的收藏詳情離開文件流。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "所有互動狀態的快速收束。"
+      },
+      {
+        "name": "state",
+        "value": "160ms",
+        "purpose": "按鈕、輸入、列與篩選的狀態切換。"
+      },
+      {
+        "name": "toast",
+        "value": "180ms",
+        "purpose": "通知淡入與 8px 位移。"
+      },
+      {
+        "name": "loading-sweep",
+        "value": "1.4s linear",
+        "purpose": "資料載入列的低對比掃光；reduced-motion 時縮為單次。"
+      }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "390px" },
+      { "name": "mobile", "value": "680px" },
+      { "name": "detail-stack", "value": "800px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "只用於把網址收進資料庫的主要動作。",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">收進來</button>",
+      "css": ".ds-button-primary { min-width: 116px; height: 50px; padding: 0 20px; border: 0; border-radius: 11px; background: var(--primary); color: var(--bg); cursor: pointer; font: 700 16px/1.55 system-ui, sans-serif; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-button-primary:hover:not(:disabled) { background: var(--primary-hover); } .ds-button-primary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-button-primary:active:not(:disabled) { transform: translateY(1px); } .ds-button-primary:disabled { cursor: not-allowed; opacity: 0.48; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "用於複製、重新整理與其他不該搶走注意力的動作。",
+      "html": "<button class=\"ds-button-quiet\" type=\"button\">複製 AI 資料網址</button>",
+      "css": ".ds-button-quiet { min-height: 38px; padding: 6px 10px; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--muted); cursor: pointer; font: 600 14px/1.3 system-ui, sans-serif; transition: color 160ms var(--ease-out), background-color 160ms var(--ease-out); } .ds-button-quiet:hover { background: var(--surface-strong); color: var(--ink); } .ds-button-quiet:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-button-quiet:active { background: var(--surface); }"
+    },
+    {
+      "name": "Capture Field",
+      "kind": "input",
+      "refersTo": "capture-field",
+      "description": "首屏收件區，把網址輸入與主要提交視為同一個任務。",
+      "html": "<label class=\"ds-capture-field\"><span class=\"ds-capture-label\">貼上網址</span><input type=\"url\" placeholder=\"貼上文章、文件或任何網址\"></label>",
+      "css": ".ds-capture-field { min-height: 66px; display: flex; align-items: center; padding: 7px; border: 1px solid var(--border-strong); border-radius: var(--radius-lg); background: var(--bg); transition: border-color 160ms var(--ease-out), box-shadow 160ms var(--ease-out); } .ds-capture-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); } .ds-capture-field input { width: 100%; height: 50px; padding: 0 15px; border: 0; outline: 0; background: transparent; color: var(--ink); font: 400 16px/1.55 system-ui, sans-serif; } .ds-capture-field input::placeholder { color: var(--faint); opacity: 1; } .ds-capture-field:focus-within { border-color: var(--primary); box-shadow: 0 0 0 4px var(--primary-soft); }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "資料庫標題旁的低調搜尋控制。",
+      "html": "<label class=\"ds-search-field\"><span aria-hidden=\"true\">⌕</span><input type=\"search\" placeholder=\"搜尋標題、來源或內容\"></label>",
+      "css": ".ds-search-field { width: 320px; height: 44px; display: flex; align-items: center; gap: 9px; padding: 0 13px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--muted); } .ds-search-field input { min-width: 0; width: 100%; height: 100%; border: 0; outline: 0; background: transparent; color: var(--ink); font: 400 14px/1.55 system-ui, sans-serif; } .ds-search-field input::placeholder { color: var(--faint); opacity: 1; } .ds-search-field:focus-within { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "全部、已完成與待處理的水平篩選。",
+      "html": "<button class=\"ds-filter-chip\" type=\"button\" aria-pressed=\"false\">已完成</button>",
+      "css": ".ds-filter-chip { min-height: 36px; padding: 5px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); color: var(--muted); cursor: pointer; font: 650 13px/1.3 system-ui, sans-serif; transition: color 160ms var(--ease-out), border-color 160ms var(--ease-out), background-color 160ms var(--ease-out); } .ds-filter-chip:hover { border-color: var(--border-strong); color: var(--ink); } .ds-filter-chip:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-filter-chip[aria-pressed=\"true\"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }"
+    },
+    {
+      "name": "Bookmark Row",
+      "kind": "custom",
+      "refersTo": "bookmark-row",
+      "description": "連續列表中的主要資訊單位；左側優先顯示內容預覽圖，失敗時退回 favicon 或來源首字。",
+      "html": "<button class=\"ds-bookmark-row\" type=\"button\"><span class=\"ds-bookmark-thumbnail\"><img src=\"/api/bookmarks/example/preview\" alt=\"\"></span><span class=\"ds-bookmark-copy\"><small>openai.com · 已完成</small><strong>一筆已整理好的內容標題</strong><span>乾淨、可搜尋，也能直接交給 AI 的簡短摘錄。</span></span><span aria-hidden=\"true\">＋</span></button>",
+      "css": ".ds-bookmark-row { width: 100%; display: grid; grid-template-columns: 88px minmax(0, 1fr) 28px; gap: 14px; align-items: start; padding: 20px 10px; border: 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: transparent; color: var(--ink); text-align: left; cursor: pointer; transition: background-color 160ms var(--ease-out); } .ds-bookmark-row:hover { background: var(--surface); } .ds-bookmark-row:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-bookmark-thumbnail { width: 86px; height: 56px; display: grid; place-items: center; overflow: hidden; border: 1px solid var(--border); border-radius: 11px; background: var(--surface); color: var(--primary); font: 760 16px/1 system-ui, sans-serif; } .ds-bookmark-thumbnail img { width: 100%; height: 100%; display: block; object-fit: cover; } .ds-bookmark-copy { min-width: 0; display: flex; flex-direction: column; gap: 5px; } .ds-bookmark-copy small { color: var(--muted); font: 400 12px/1.3 system-ui, sans-serif; } .ds-bookmark-copy strong { font: 680 16px/1.38 system-ui, sans-serif; } .ds-bookmark-copy span { color: var(--muted); font: 400 14px/1.5 system-ui, sans-serif; }"
+    },
+    {
+      "name": "Ready Status",
+      "kind": "chip",
+      "refersTo": "status-ready",
+      "description": "用文字與圓點共同傳達已完成，避免只靠顏色。",
+      "html": "<span class=\"ds-status-ready\"><i aria-hidden=\"true\"></i>已完成</span>",
+      "css": ".ds-status-ready { display: inline-flex; align-items: center; gap: 5px; color: var(--success); white-space: nowrap; font: 650 12px/1.3 system-ui, sans-serif; } .ds-status-ready i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }"
+    },
+    {
+      "name": "Bookmark Detail Dialog",
+      "kind": "custom",
+      "description": "單筆收藏的專注閱讀面板；桌面正文在左、資訊在右，窄螢幕改為單欄。",
+      "html": "<section class=\"ds-detail-dialog\"><article class=\"ds-detail-content\"><div class=\"ds-detail-artwork\"></div><small>來源 · 已完成</small><h2>收藏內容標題</h2><p>乾淨正文在這裡保持舒適的閱讀寬度。</p></article><aside class=\"ds-detail-meta\"><strong>資訊</strong><dl><dt>來源</dt><dd>example.com</dd><dt>內容長度</dt><dd>1,280 字</dd></dl></aside></section>",
+      "css": ".ds-detail-dialog { width: min(100%, 920px); min-height: 520px; display: grid; grid-template-columns: minmax(0, 1fr) 320px; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--bg); color: var(--ink); box-shadow: var(--shadow-dialog); font-family: system-ui, sans-serif; } .ds-detail-content { padding: 48px; } .ds-detail-artwork { width: 100%; aspect-ratio: 16 / 9; margin-bottom: 32px; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface); } .ds-detail-content small { color: var(--muted); font-size: 13px; } .ds-detail-content h2 { margin: 12px 0; font-size: 32px; line-height: 1.18; } .ds-detail-content p { max-width: 68ch; margin: 0; color: var(--muted); line-height: 1.75; } .ds-detail-meta { padding: 32px; border-left: 1px solid var(--border); background: var(--surface); } .ds-detail-meta > strong { color: var(--muted); font-size: 14px; } .ds-detail-meta dl { margin: 24px 0 0; } .ds-detail-meta dt { padding-top: 16px; border-top: 1px solid var(--border); color: var(--faint); font-size: 12px; } .ds-detail-meta dd { min-height: 44px; display: flex; align-items: center; margin: 0; font-size: 14px; }"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "複製、新增與刪除完成後的短暫回饋。",
+      "html": "<div class=\"ds-toast\" role=\"status\">Markdown 已複製</div>",
+      "css": ".ds-toast { max-width: 360px; padding: 11px 15px; border-radius: 10px; background: var(--ink); color: var(--bg); box-shadow: var(--shadow-toast); font: 650 14px/1.55 system-ui, sans-serif; transform: translateY(0); transition: opacity 180ms var(--ease-out), transform 180ms var(--ease-out); } .ds-toast:hover { opacity: 0.92; } .ds-toast:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "安靜的收件桌",
+    "overview": "中轉站像一張整理得宜的私人工作桌：打開就看到收件處，視線接著落到過去留下的內容。單欄、寬留白與低彩度表面降低認知負擔，只讓深鈷靛在主要動作與正在處理的狀態出聲。\n\n介面以熟悉而可預測的產品操作為優先：輸入框就是輸入框，書籤以清楚分隔線排成列表；點擊條目後，以接近全畫面的專注閱讀浮層呈現完整正文與資訊。系統不靠裝飾營造能力感，而是靠清楚狀態、穩定節奏與可取用的內容取得信任。",
+    "keyCharacteristics": [
+      "單欄主線，桌面最寬 960px，手機在 680px 改為垂直操作。",
+      "低彩度中性色為底，單一深鈷靛點出主要動作。",
+      "內容列表取代卡片網格，用分隔線而非陰影組織層次。",
+      "完整的深色模式、鍵盤焦點與 reduced-motion 保護。"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "深鈷靛不超過單一畫面的 10%；它的稀少就是層級。",
+        "section": "colors"
+      },
+      {
+        "name": "The Workbench Type Rule",
+        "body": "介面不得在標籤、按鈕或資料中引入展示字體；一組系統字族負責全部任務。",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "所有內容列與表單在靜止狀態不使用陰影；詳情浮層只允許一層，不可在裡面再堆浮起卡片。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 把貼網址放在首屏最清楚的位置，並維持 50px 主操作高度。",
+      "**Do** 用文字加色點呈現完成、部分完成、擷取中與失敗，狀態不得只依賴顏色。",
+      "**Do** 使用 1px 分隔線、表面明度與留白組織資訊，讓標題、來源和摘錄成為主角。",
+      "**Do** 優先顯示貼文或文章內容圖；預覽失效時依序退回原始 OG、favicon 與來源首字。",
+      "**Do** 在 680px 以下堆疊收件輸入與搜尋，並把詳情浮層改為全畫面單欄；浮層內保留至少 44px 的觸控目標。",
+      "**Do** 對所有狀態轉換套用 reduced-motion 替代，並維持可見的鍵盤焦點。"
+    ],
+    "donts": [
+      "**Don't** 「做塞滿模組的管理儀表板」；詳情浮層只服務單筆收藏的閱讀與操作，不得演變成第二個儀表板。",
+      "**Don't** 「做複雜側邊欄與分類樹」；保留單欄收件與搜尋流程。",
+      "**Don't** 「放 AI 聊天窗」；AI 能力透過唯讀 MCP、Markdown 與 JSON 資料出口存在。",
+      "**Don't** 「以大量卡片、漸層、玻璃效果或裝飾性動畫假裝功能豐富」；任何裝飾都必須傳達真實狀態。",
+      "**Don't** 使用彩色側條、漸層字、裝飾性玻璃卡、自訂滾動條或非標準表單控制項。",
+      "**Don't** 把紅、綠、琥珀當裝飾色；它們只能出現在對應的語意狀態。"
+    ]
+  }
+}

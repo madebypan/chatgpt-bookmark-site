@@ -1,0 +1,20 @@
+{
+  "name": "chatgpt-bookmark-site",
+  "interface": {
+    "displayName": "ChatGPT Bookmark Site"
+  },
+  "plugins": [
+    {
+      "name": "bookmark-site",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bookmark-site"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

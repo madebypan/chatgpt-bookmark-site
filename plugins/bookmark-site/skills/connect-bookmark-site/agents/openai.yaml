@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Bookmark Site"
+  short_description: "Connect Codex to your private Bookmark Site"
+  default_prompt: "Use $connect-bookmark-site to connect my private Bookmark Site."
