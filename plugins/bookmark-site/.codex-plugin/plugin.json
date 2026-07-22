@@ -1,6 +1,6 @@
 {
   "name": "bookmark-site",
-  "version": "1.0.0",
+  "version": "1.0.0+codex.20260722150520",
   "description": "Connect Codex to a private, self-hosted Bookmark Site.",
   "author": {
     "name": "ChatGPT Bookmark Site contributors"
@@ -8,7 +8,12 @@
   "homepage": "https://github.com/madebypan/chatgpt-bookmark-site",
   "repository": "https://github.com/madebypan/chatgpt-bookmark-site",
   "license": "MIT",
-  "keywords": ["bookmarks", "knowledge", "mcp", "sites"],
+  "keywords": [
+    "bookmarks",
+    "knowledge",
+    "mcp",
+    "sites"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Bookmark Site",
@@ -16,14 +21,17 @@
     "longDescription": "Connect Codex to your own Bookmark Site deployment, then search, read, and ask questions across your saved sources through its read-only MCP server.",
     "developerName": "ChatGPT Bookmark Site contributors",
     "category": "Productivity",
-    "capabilities": ["Setup", "Read"],
+    "capabilities": [
+      "Setup",
+      "Read"
+    ],
     "defaultPrompt": [
       "Connect or update my private Bookmark Site.",
       "Show the latest items in my Bookmark Site.",
       "Search my Bookmark Site for something I saved."
     ],
     "brandColor": "#31579A",
-    "composerIcon": "./assets/icon.png",
-    "logo": "./assets/icon.png"
+    "composerIcon": "./assets/icon-v2.png",
+    "logo": "./assets/icon-v2.png"
   }
 }
