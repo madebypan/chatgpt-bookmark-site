@@ -15,7 +15,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.13.0
+          # Node 24's bundled SQLite includes FTS5, which the integration tests require.
+          node-version: 24
           cache: npm
       - run: npm ci
       - run: npm test
