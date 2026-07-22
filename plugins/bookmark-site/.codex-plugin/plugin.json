@@ -23,7 +23,7 @@
       "Search my Bookmark Site for something I saved."
     ],
     "brandColor": "#31579A",
-    "composerIcon": "./assets/icon.svg",
-    "logo": "./assets/icon.svg"
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
   }
 }
